@@ -1,0 +1,28 @@
+
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(Ú´¡Ç8“ÉÃş.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¬àó8“ÉÃş.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ğÂïåüÿÿÿÿ8“ÉÃş.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âä˜£şÿÿÿÿ8“ÉÃş.
+r	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ğâ€øÿÿÿÿ8“ÉÃş.
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8“ÉÃş.
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8“ÉÃş.
+I
+java:S1905J",Remove this unnecessary cast to "Actuacion".(ˆ’Îé8“ÉÃş.
+]	java:S125'"<This block of commented-out lines of code should be removed.(ï¹Ïüùÿÿÿÿ8“ÉÃş.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8“ÉÃş.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â—ŒĞûÿÿÿÿ8“ÉÃş.
+r	java:S117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ù­ûÿÿÿÿ8“ÉÃş.
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8“ÉÃş.
+M
+java:S1128"+Remove this unused import 'Entities.Actor'.(³Ñ—Œûÿÿÿÿ8“ÉÃş.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¿Äçªşÿÿÿÿ8“ÉÃş.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8“ÉÃş.
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(‚ªğ’øÿÿÿÿ8“ÉÃş.
+r	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ğâ€øÿÿÿÿ8“ÉÃş.
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(×²Ãµ8“ÉÃş.
+G
+java:S1181"%Catch Exception instead of Throwable.(À˜§üÿÿÿÿ8“ÉÃş.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(òÇÊ¨ÿÿÿÿÿ8“ÉÃş.
+I
+java:S1905U",Remove this unnecessary cast to "Actuacion".(ˆ’Îé8“ÉÃş.

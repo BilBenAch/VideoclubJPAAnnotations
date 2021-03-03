@@ -1,0 +1,25 @@
+
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¤Á†Äş.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âä˜£şÿÿÿÿ
+P
+java:S1128".Remove this unused import 'Entities.Pelicula'.(È«½êûÿÿÿÿ8É¥•Äş.
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(¯¤ãşÿÿÿÿ8¤Á†Äş.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¤Á†Äş.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¤Á†Äş.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¤Á†Äş.
+F
+java:S1905S")Remove this unnecessary cast to "Genero".(üŠ§Ÿ8É¥•Äş.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¤Á†Äş.
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(×²Ãµ8¤Á†Äş.
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(û½‹8¤Á†Äş.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¬àó8¤Á†Äş.
+E
+java:S1905H")Remove this unnecessary cast to "Genero".(¢ İ[8£“Äş.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à“³‘8¤Á†Äş.
+G
+java:S1181"%Catch Exception instead of Throwable.(À˜§üÿÿÿÿ8¤Á†Äş.
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(îïòµÿÿÿÿÿ8¤Á†Äş.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¯üÈ8¤Á†Äş.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¹Åé8¤Á†Äş.
+X	java:S125%"<This block of commented-out lines of code should be removed.(½â™¼8¬åœÄş.

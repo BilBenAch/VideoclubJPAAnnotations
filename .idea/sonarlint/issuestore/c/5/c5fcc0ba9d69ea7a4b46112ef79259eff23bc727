@@ -1,0 +1,27 @@
+
+p	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÇ˜†üÿÿÿÿ8È¥áÍı.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¡ÔŸíûÿÿÿÿ8È¥áÍı.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ÒëÊóúÿÿÿÿ8È¥áÍı.
+E
+java:S1905"*Remove this unnecessary cast to "Cliente".(‹å¤”8à€ôÍı.
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÑÖ¤8È¥áÍı.
+r	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âä˜£şÿÿÿÿ
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8µæÍı.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(©øà¼8È¥áÍı.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Í®üÍı.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8È¥áÍı.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8È¥áÍı.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‡›¢ö8È¥áÍı.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ëüÍı.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¬àó8È¥áÍı.
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(×²Ãµ8È¥áÍı.
+K
+java:S1128"+Remove this unused import 'Entities.Actor'.(³Ñ—Œûÿÿÿÿ8à€ôÍı.
+E
+java:S1905"*Remove this unnecessary cast to "Cliente".(‹å¤”8¯¥òÍı.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¾Áô„8È¥áÍı.
+E
+java:S1181"%Catch Exception instead of Throwable.(À˜§üÿÿÿÿ8È¥áÍı.
+p	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜€õúúÿÿÿÿ8È¥áÍı.
+V	java:S125"<This block of commented-out lines of code should be removed.(¤·è¯8‹èôÍı.
