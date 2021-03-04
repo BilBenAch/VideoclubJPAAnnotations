@@ -64,8 +64,8 @@ public class Actuacion implements Serializable {
     public String toString() {
         return "Actuacion{" +
                 ", character='" + personaje + '\'' +
-                ", actor=" + actor +
-                ", pelicula=" + pelicula +
+                ", actor=" + actor.getCodigo() +
+                ", pelicula=" + pelicula.getId() +
                 '}';
     }
 }

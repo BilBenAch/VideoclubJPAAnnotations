@@ -11,11 +11,11 @@ public class Main {
         GeneroJPAManager generoJPAManager = new GeneroJPAManager();
         VisionadoJPAManager visionadoJPAManager = new VisionadoJPAManager();
 
-//        actorJPAManager.start();
-//        clienteJPAManager.start();
-//        generoJPAManager.start();
-//        peliculaJPAManager.start();
-//        actuacionJPAManager.start();
+        actorJPAManager.start();
+        clienteJPAManager.start();
+        generoJPAManager.start();
+        peliculaJPAManager.start();
+        actuacionJPAManager.start();
         visionadoJPAManager.start();
     }
 }

@@ -827,7 +827,7 @@ false posixrules
     <database id="11" parent="1" name="videoclub">
       <ObjectId>33274</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>4293</IntrospectionStateNumber>
+      <IntrospectionStateNumber>4408</IntrospectionStateNumber>
       <Current>1</Current>
     </database>
     <role id="12" parent="1" name="bibliotecari">
@@ -905,7 +905,7 @@ UC/10
 </Acl>
       <StateNumber>352</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>4294</IntrospectionStateNumber>
+      <IntrospectionStateNumber>4409</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="27" parent="11" name="plpgsql">

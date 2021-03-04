@@ -1,33 +1,33 @@
 
-Z	java:S106!"9Replace this use of System.out or System.err by a logger.(è°Û÷úÿÿÿÿ8…±¤Çþ.
-L
-java:S1659†")Declare "id_pelicula" on a separate line.(¬Æ¾ùúÿÿÿÿ8…±¤Çþ.
-n
-java:S2095P"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Ÿ ¸œùÿÿÿÿ8…±¤Çþ.
-ž
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úçèô8…±¤Çþ.
-n	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºæï¨8…±¤Çþ.
-s	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Æ¾ùúÿÿÿÿ8…±¤Çþ.
-o
-java:S2095‰"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÍøÿÀýÿÿÿÿ8…±¤Çþ.
-s	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Æ¾ùúÿÿÿÿ8…±¤Çþ.
-U	java:S1063"9Replace this use of System.out or System.err by a logger.(„§øø8…±¤Çþ.
-o
-java:S2095©"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Ÿ ¸œùÿÿÿÿ8…±¤Çþ.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(™”œ¯ýÿÿÿÿ8…±¤Çþ.
-T	java:S1069"9Replace this use of System.out or System.err by a logger.(á–©`8…±¤Çþ.
-F
-java:S1659N"$Declare "nombre" on a separate line.(ƒõ—ƒþÿÿÿÿ8…±¤Çþ.
-s	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ýÄ»þÿÿÿÿ8…±¤Çþ.
-n	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÊ¶Â8…±¤Çþ.
-G
-java:S1659?"*Declare "nacionalidad" on a separate line.(ˆ©øŽ8…±¤Çþ.
-Z	java:S106-"9Replace this use of System.out or System.err by a logger.(Üë„ßüÿÿÿÿ8…±¤Çþ.
-Z	java:S106'"9Replace this use of System.out or System.err by a logger.(õœê–ùÿÿÿÿ8…±¤Çþ.
-n
-java:S2095a"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.( ±…ôûÿÿÿÿ8…±¤Çþ.
-n
-java:S2095A"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÍøÿÀýÿÿÿÿ8…±¤Çþ.
-n
-java:S2095q"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¹®Ùœÿÿÿÿÿ8…±¤Çþ.
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âä˜£þÿÿÿÿ8…±¤Çþ.
+l
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Ÿ ¸œùÿÿÿÿ8…±¤Çþ.
+p	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ýÄ»þÿÿÿÿ8…±¤Çþ.
+D
+java:S1659"$Declare "nombre" on a separate line.(ƒõ—ƒþÿÿÿÿ8…±¤Çþ.
+l
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÍøÿÀýÿÿÿÿ8…±¤Çþ.
+l
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Ÿ ¸œùÿÿÿÿ8ý¸ƒËÿ.
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úçèô8…±¤Çþ.
+R	java:S106"9Replace this use of System.out or System.err by a logger.(á–©`8…±¤Çþ.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(™”œ¯ýÿÿÿÿ8…±¤Çþ.
+l
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.( ±…ôûÿÿÿÿ8…±¤Çþ.
+p	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Æ¾ùúÿÿÿÿ8…±¤Çþ.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(Üë„ßüÿÿÿÿ8…±¤Çþ.
+l
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÍøÿÀýÿÿÿÿ8…±¤Çþ.
+y	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âä˜£þÿÿÿÿ8…±¤Çþ.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(„§øø8…±¤Çþ.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(õœê–ùÿÿÿÿ8…±¤Çþ.
+I
+java:S1659")Declare "id_pelicula" on a separate line.(¬Æ¾ùúÿÿÿÿ8…±¤Çþ.
+E
+java:S1659"*Declare "nacionalidad" on a separate line.(ˆ©øŽ8…±¤Çþ.
+l
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¹®Ùœÿÿÿÿÿ8…±¤Çþ.
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÊ¶Â8…±¤Çþ.
+p	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Æ¾ùúÿÿÿÿ8…±¤Çþ.
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºæï¨8…±¤Çþ.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(è°Û÷úÿÿÿÿ8…±¤Çþ.

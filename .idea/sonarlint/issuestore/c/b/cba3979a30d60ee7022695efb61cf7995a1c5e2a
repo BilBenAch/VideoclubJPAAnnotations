@@ -1,25 +1,22 @@
 
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¬àó8®óÈÄş.
-Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8®óÈÄş.
-Z	java:S106@"9Replace this use of System.out or System.err by a logger.(–Ïû¨üÿÿÿÿ8®óÈÄş.
-Z	java:S106*"9Replace this use of System.out or System.err by a logger.(âë‹Éûÿÿÿÿ8®óÈÄş.
-Z	java:S106'"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8®óÈÄş.
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8®óÈÄş.
-U	java:S106$"9Replace this use of System.out or System.err by a logger.(ç÷àä8®óÈÄş.
-Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8®óÈÄş.
-N
-java:S1905K",Remove this unnecessary cast to "Visionado".(Şı“Ïùÿÿÿÿ8ø¶ÚÄş.
-N
-java:S1905V",Remove this unnecessary cast to "Visionado".(Şı“Ïùÿÿÿÿ8ÉÒŞÄş.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è˜¤Éøÿÿÿÿ8®óÈÄş.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âä˜£şÿÿÿÿ
-]	java:S125("<This block of commented-out lines of code should be removed.(—¶Úúÿÿÿÿÿ8š”ßÄş.
-L
-java:S1128"/Remove this unused import 'Entities.Actuacion'.(’‹Îƒ8ÉÒŞÄş.
-Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8®óÈÄş.
-G
-java:S1181"%Catch Exception instead of Throwable.(À˜§üÿÿÿÿ8®óÈÄş.
-Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ı¥Ïïûÿÿÿÿ8®óÈÄş.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(º°Æç8®óÈÄş.
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(âë‹Éûÿÿÿÿ8ÿˆùÉÿ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è˜¤Éøÿÿÿÿ8ÿˆùÉÿ.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âä˜£şÿÿÿÿ8ÿˆùÉÿ.
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ÿˆùÉÿ.
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ÿˆùÉÿ.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ÿˆùÉÿ.
 S
-java:S2696"6Make the enclosing method "static" or remove this set.(×²Ãµ8®óÈÄş.
+java:S2696"6Make the enclosing method "static" or remove this set.(×²Ãµ8ÿˆùÉÿ.
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ÿˆùÉÿ.
+L
+java:S1128"/Remove this unused import 'Entities.Actuacion'.(’‹Îƒ8ÿˆùÉÿ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(º°Æç8ÿˆùÉÿ.
+]	java:S125("<This block of commented-out lines of code should be removed.(—¶Úúÿÿÿÿÿ8ÿˆùÉÿ.
+G
+java:S1181"%Catch Exception instead of Throwable.(À˜§üÿÿÿÿ8ÿˆùÉÿ.
+X	java:S1252"<This block of commented-out lines of code should be removed.(ª•Ù8øÃÌÿ.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ı¥Ïïûÿÿÿÿ8ÿˆùÉÿ.
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(–Ïû¨üÿÿÿÿ8ÿˆùÉÿ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¬àó8ÿˆùÉÿ.
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(ç÷àä8ÿˆùÉÿ.
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ÿˆùÉÿ.

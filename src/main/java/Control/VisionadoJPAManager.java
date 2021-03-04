@@ -37,8 +37,8 @@ public class VisionadoJPAManager {
         System.out.println();
         MA.listaVisionats();
         System.out.println();
-        //MA.deleteVisionado(5);
-      //  MA.updateVisionado(5, "2021-02-17");
+//        MA.updateVisionado("2", 5 , "2021-02-17");
+//        MA.deleteVisionado("2", 5);
         System.out.println("Visionats llegits de la base de dades després de des actualitzacions");
         System.out.println();
         MA.listaVisionats();
@@ -47,7 +47,6 @@ public class VisionadoJPAManager {
 
     /* Method to CREATE an Actot in the database */
     public void addVisionado(Visionado visionado) {
-       // PeliculaClientePK peliculaClientePK = new PeliculaClientePK();
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
         em.persist(visionado);
@@ -70,23 +69,36 @@ public class VisionadoJPAManager {
     }
 
     /* Method to UPDATE activity for an actor */
-    public void updateVisionado(Integer visionadoID, String nuevaFechaVisionado) {
+    public void updateVisionado(String clienteId, Integer peliculaID, String nuevaFechaVisionado) {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
-        Visionado visionado = (Visionado) em.find(Visionado.class, visionadoID);
-        visionado.setFecha(Date.valueOf(nuevaFechaVisionado));
-        em.merge(visionado);
-        em.getTransaction().commit();
+        List<Visionado> result = em.createQuery("from Visionado ", Visionado.class)
+                .getResultList();
+        for (Visionado visionado : result) {
+            if (clienteId.equals(visionado.getCliente().getCodigo()) && peliculaID == visionado.getPelicula().getId()) {
+                Visionado visionado2 = (Visionado) em.find(Visionado.class, visionado);
+                visionado2.setFecha(Date.valueOf(nuevaFechaVisionado));
+                em.merge(visionado);
+                em.getTransaction().commit();
+            }
+        }
         em.close();
     }
 
     /* Method to DELETE an actor from the records */
-    public void deleteVisionado(Integer visionadoID) {
+    public void deleteVisionado(String clienteID, Integer peliculaID) {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
-        Visionado visionado = (Visionado) em.find(Visionado.class, visionadoID);
-        em.remove(visionado);
-        em.getTransaction().commit();
+        List<Visionado> result = em.createQuery("from Visionado ", Visionado.class)
+                .getResultList();
+        for (Visionado visionado : result) {
+            if (clienteID.equals(visionado.getCliente().getCodigo()) && peliculaID == visionado.getPelicula().getId()) {
+                Visionado visionado2 = (Visionado) em.find(Visionado.class, visionado);
+                em.remove(visionado2);
+                em.getTransaction().commit();
+                em.close();
+            }
+        }
         em.close();
     }
 }

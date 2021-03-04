@@ -24,7 +24,7 @@ public class ActuacionJPAManager {
         FileAccessor fa;
         fa = new FileAccessor();
         fa.readActorFile("actor.csv");
-       fa.readPelicula("peliculas.csv");
+        fa.readPelicula("peliculas.csv");
         fa.readActuacionFile("actuacion.csv");
         System.out.println("Actuacions llegides des del fitxer");
         for (int i = 0; i < fa.listaActuacion.size(); i++) {
@@ -36,8 +36,8 @@ public class ActuacionJPAManager {
         System.out.println();
         MA.listActuacion();
         System.out.println();
-        //MA.deleteActuacion(5);
-//         MA.updateActuacion(5, "Antonio");
+//        MA.updateActuacion(5, "Antonio");
+//        MA.deleteActuacion(5);
         System.out.println("Actuacions llegides de la base de dades després de des actualitzacions");
         System.out.println();
         MA.listActuacion();
@@ -68,13 +68,19 @@ public class ActuacionJPAManager {
     }
 
     /* Method to UPDATE activity for an actor */
-    public void updateActuacion(Integer ActuacionID, String Personajenombre) {
+    public void updateActuacion(Integer ActuacionId, String Personajenombre) {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
-        Actuacion actuacion = (Actuacion) em.find(Actuacion.class, ActuacionID);
-        actuacion.setPersonaje(Personajenombre);
-        em.merge(actuacion);
-        em.getTransaction().commit();
+        List<Actuacion> result = em.createQuery("from Actuacion", Actuacion.class)
+                .getResultList();
+        for (Actuacion actuacion : result) {
+            if (ActuacionId == actuacion.getActor().getCodigo()) {
+                Actuacion actuacion2 = (Actuacion) em.find(Actuacion.class, actuacion);
+                actuacion2.setPersonaje(Personajenombre);
+                em.merge(actuacion);
+                em.getTransaction().commit();
+            }
+        }
         em.close();
     }
 
@@ -82,9 +88,15 @@ public class ActuacionJPAManager {
     public void deleteActuacion(Integer ActuacionID) {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
-        Actuacion actuacion = (Actuacion) em.find(Actuacion.class, ActuacionID);
-        em.remove(actuacion);
-        em.getTransaction().commit();
+        List<Actuacion> result = em.createQuery("from Actuacion", Actuacion.class)
+                .getResultList();
+        for (Actuacion actuacion : result) {
+            if (ActuacionID == actuacion.getActor().getCodigo()) {
+                Actuacion actuacion2 = (Actuacion) em.find(Actuacion.class, actuacion);
+                em.remove(actuacion2);
+                em.getTransaction().commit();
+            }
+        }
         em.close();
     }
 }

@@ -1,0 +1,22 @@
+
+_
+java:S1854"DRemove this useless assignment to local variable "generoJPAManager".(ÑãÜ8—Î†Íÿ.
+f
+java:S1854"FRemove this useless assignment to local variable "peliculaJPAManager".(½Š°”ıÿÿÿÿ8—Î†Íÿ.
+b
+java:S1854"GRemove this useless assignment to local variable "actuacionJPAManager".(‰‰©8—Î†Íÿ.
+e
+java:S1854"ERemove this useless assignment to local variable "clienteJPAManager".(À×œ©üÿÿÿÿ8—Î†Íÿ.
+c
+java:S1854"CRemove this useless assignment to local variable "actorJPAManager".(¼Ğ‡ùÿÿÿÿ8—Î†Íÿ.
+V	java:S125"<This block of commented-out lines of code should be removed.(Ôıü8—Î†Íÿ.
+T
+java:S1481"4Remove this unused "actorJPAManager" local variable.(¼Ğ‡ùÿÿÿÿ8—Î†Íÿ.
+V
+java:S1481"6Remove this unused "clienteJPAManager" local variable.(À×œ©üÿÿÿÿ8—Î†Íÿ.
+S
+java:S1481"8Remove this unused "actuacionJPAManager" local variable.(‰‰©8—Î†Íÿ.
+W
+java:S1481"7Remove this unused "peliculaJPAManager" local variable.(½Š°”ıÿÿÿÿ8—Î†Íÿ.
+P
+java:S1481"5Remove this unused "generoJPAManager" local variable.(ÑãÜ8—Î†Íÿ.

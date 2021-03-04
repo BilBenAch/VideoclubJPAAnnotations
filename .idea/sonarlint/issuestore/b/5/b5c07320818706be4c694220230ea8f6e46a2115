@@ -1,14 +1,14 @@
 
-r	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¤¢ûÿÿÿÿ8æÅöÆş.
-o	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¤¢ûÿÿÿÿ8æÅöÆş.
-r	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ƒ¹Õøÿÿÿÿ8æ·ËÌı.
-o	java:S100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ƒ¹Õøÿÿÿÿ8æ·ËÌı.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–…¢ÿÿÿÿÿ
-r	java:S116"VRename this field "id_pelicula" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ç®¬8æÅöÆş.
-F
-java:S1948")Make "cliente" transient or serializable.(Ó…ß®8ñ˜±Çş.
 Y
-java:S1128"=Remove this unused import 'javax.persistence.FetchType.LAZY'.(ŠŞÌ_8º¿ëÏş.
-o	java:S1005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¿ñíşÿÿÿÿ8æÅöÆş.
-u	java:S116"YRename this field "codigo_cliente" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍõÏ8æ·ËÌı.
-j	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô§“ƒ8æ·ËÌı.
+java:S1128"=Remove this unused import 'javax.persistence.FetchType.LAZY'.(ŠŞÌ_8ÁùÀÒÿ.
+u	java:S116"YRename this field "codigo_cliente" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍõÏ8ÁùÀÒÿ.
+o	java:S100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ƒ¹Õøÿÿÿÿ8ÁùÀÒÿ.
+r	java:S116"VRename this field "id_pelicula" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ç®¬8ÁùÀÒÿ.
+j	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô§“ƒ8ÁùÀÒÿ.
+r	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¤¢ûÿÿÿÿ8ÁùÀÒÿ.
+r	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ƒ¹Õøÿÿÿÿ8ÁùÀÒÿ.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–…¢ÿÿÿÿÿ8ÁùÀÒÿ.
+o	java:S1005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¿ñíşÿÿÿÿ8ÁùÀÒÿ.
+o	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¤¢ûÿÿÿÿ8ÁùÀÒÿ.
+F
+java:S1948")Make "cliente" transient or serializable.(Ó…ß®8ÁùÀÒÿ.

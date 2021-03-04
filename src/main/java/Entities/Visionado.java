@@ -26,7 +26,7 @@ public class Visionado implements Serializable {
     @Transient
     private String codigo_cliente;
 
-    @Column(name =  "in_date")
+    @Column(name = "in_date")
     private Date fecha;
 
     public Visionado(Pelicula pelicula, Cliente cliente, Date fecha) {
@@ -84,7 +84,7 @@ public class Visionado implements Serializable {
 
     @Override
     public String toString() {
-        return "Visionado [id_pelicula=" + id_pelicula + ", codigo_cliente=" + codigo_cliente + ", fecha=" + fecha
+        return "Visionado [id_pelicula=" + pelicula.getId() + ", codigo_cliente=" + cliente.getCodigo() + ", fecha=" + fecha
                 + "]";
     }
 
